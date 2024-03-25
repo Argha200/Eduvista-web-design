@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Esteban&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sen:wght@400..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="./img/logo.png" alt="logo"></div>
+            <div class="menu-toggle">&#9776;</div>
+            <div class="close-btn">&times;</div>
+            <ul class="nav-links">
+                <li onclick="home_section_call()">
+                    <p>Home</p>
+                </li>
+                <li onclick="about_section_call()">
+                    <p>About</p>
+                </li>
+                <li  onclick="courses_section_call()">
+                    <p>Courses</p>
+                </li>
+                <li onclick="instructors_section_call()">
+                    <p>Instructors</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="carausal-main" id="header_section_id">
+        <div class="carausal-content">
+            <h3>BEST ONLINE COURSE</h3>
+            <h1>The Best Online Learning Platform</h1>
+            <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+            <a href="#" class="read-more-btn">Read More</a>
+            <a href="#" class="read-more-btn">Join Now</a>
+        </div>
+    </div>
+
+    <!-- service start -->
+    <div class="service-section-all-card">
+        <div class="service-section-single-card">
+            <div class="icon-img">
+                <i class="fa fa-graduation-cap" ></i>
+            </div>
+            <div class="service-section-single-card-content">
+                <h4>Skilled Instructors</h4>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+
+        <div class="service-section-single-card">
+            <div class="icon-img">
+                <i class="fa fa-globe" ></i>
+            </div>
+            <div class="service-section-single-card-content">
+                <h4>Online Classes</h4>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+                
+        <div class="service-section-single-card">
+            <div class="icon-img">
+                <i class="fa fa-home"></i>
+            </div>
+            <div class="service-section-single-card-content">
+                <h4>Home Projects</h4>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+
+        <div class="service-section-single-card">
+            <div class="icon-img">
+                <i class="fa fa-book"></i>
+            </div>
+            <div class="service-section-single-card-content">
+                <h4>Book Library</h4>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- service end -->
+
+    <!-- about start -->
+    <div class="about-section-all-cart"  id="about_section_id" >
+        <div class="about-section-img">
+            <img src="./img/about.jpg" alt="about">
+        </div>
+        <div class="about-section-content-cart">
+            <h6>ABOUT US</h6>
+            <hr>
+            <h1>Welcome to eLEARNING</h1>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <div class="about-section-content-cart-key-point">
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>Skilled Instructors</p>
+                </div>
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>Online Classes</p>
+                </div>
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>International Certificate</p>
+                </div>
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>Skilled Instructors</p>
+                </div>
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>Online Classes</p>
+                </div>
+                <div class="about-section-content-cart-key-point-single">
+                    <p><i class="fa fa-arrow-right"></i>International Certificate</p>
+                </div>
+            </div>
+            <a href="#" class="read-more-btn">Read More</a>
+        </div>
+    </div>
+    <!-- about section end -->
+
+    <!-- Categories section start -->
+    <div  id="courses_section_id">
+        <div class="categorie-section-heading">
+            <h6>CATEGORIES</h6>
+            <hr>
+            <h1>Courses Categories</h1>
+        </div>
+
+        <div class="main-category-section">
+            <div class="category-item-left">
+                <div>
+                    <a href="#">
+                        <img src="img/cat-1.jpg" alt="Web Design">
+                    </a>
+                    <div class="category-overlay">
+                        <h5>Web Design</h5>
+                        <small>49 Courses</small>
+                    </div>
+                </div>
+
+                <div class="category-item-left-two-part">
+                    <div class="category-item-left-two-part-single">
+                        <a href="#">
+                            <img src="img/cat-2.jpg" alt="Web Design">
+                        </a>
+                        <div class="category-overlay">
+                            <h5>Graphic Design</h5>
+                            <small>49 Courses</small>
+                        </div>
+                    </div>
+    
+                    <div class="category-item-left-two-part-single">
+                        <a href="#">
+                            <img src="img/cat-3.jpg" alt="Web Design">
+                        </a>
+                        <div class="category-overlay">
+                            <h5>Vidseo Editing</h5>
+                            <small>49 Courses</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-item-right">
+                <div>
+                    <a href="#">
+                        <img src="img/cat-4.jpg" alt="Web Design">
+                    </a>
+                    <div class="category-overlay">
+                        <h5>Online Marketing</h5>
+                        <small>49 Courses</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories section end -->
+    
+    <!-- Course section start -->
+    <div>
+        <div class="categorie-section-heading">
+            <h6>Courses</h6>
+            <hr>
+            <h1>Popular Courses</h1>
+        </div>
+
+        <div class="main-course-section">
+            <div class="course-section-single-cart">
+                <div class="course-section-single-img">
+                    <img src="img/course-1.jpg" alt="">
+                    <div class="course-section-single-overlay">
+                        <a href="#" class="btn-join-now">Join Now</a>
+                        <a href="#" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="course-section-single-content-main">
+                    <h3>$149.00</h3>
+                    <div class="course-section-single-content-main-review">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                    </div>
+                    <h5>Web Design & Development Course for Beginners</h5>
+                </div>
+            </div>
+
+            <div class="course-section-single-cart">
+                <div class="course-section-single-img">
+                    <img src="img/course-2.jpg" alt="">
+                    <div class="course-section-single-overlay">
+                        <a href="#" class="btn-join-now">Join Now</a>
+                        <a href="#" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="course-section-single-content-main">
+                    <h3>$149.00</h3>
+                    <div class="course-section-single-content-main-review">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                    </div>
+                    <h5>Web Design & Development Course for Beginners</h5>
+                </div>
+            </div>
+
+            <div class="course-section-single-cart">
+                <div class="course-section-single-img">
+                    <img src="img/course-3.jpg" alt="">
+                    <div class="course-section-single-overlay">
+                        <a href="#" class="btn-join-now">Join Now</a>
+                        <a href="#" class="btn-read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="course-section-single-content-main">
+                    <h3>$149.00</h3>
+                    <div class="course-section-single-content-main-review">
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                        <small class="fa fa-star"></small>
+                    </div>
+                    <h5>Web Design & Development Course for Beginners</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Course section end -->
+    
+    <!-- Instructors section start -->
+    <div id="instructors_section_id">
+        <div class="categorie-section-heading">
+            <h6>Instructors</h6>
+            <hr>
+            <h1>Expert Instructors</h1>
+        </div>
+        <div class="main-instructor-section">
+            <div class="instructor-section-single-cart">
+                <div class="instructor-section-single-img">
+                    <img src="img/team-1.jpg" alt="">
+                    <div class="instructor-section-single-overlay">
+                        <a href="#" class="btn-social"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-section-single-content-main">
+                    <h4>Instructor Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+            <div class="instructor-section-single-cart">
+                <div class="instructor-section-single-img">
+                    <img src="img/team-2.jpg" alt="">
+                    <div class="instructor-section-single-overlay">
+                        <a href="#" class="btn-social"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-section-single-content-main">
+                    <h4>Instructor Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+            <div class="instructor-section-single-cart">
+                <div class="instructor-section-single-img">
+                    <img src="img/team-3.jpg" alt="">
+                    <div class="instructor-section-single-overlay">
+                        <a href="#" class="btn-social"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-section-single-content-main">
+                    <h4>Instructor Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+            <div class="instructor-section-single-cart">
+                <div class="instructor-section-single-img">
+                    <img src="img/team-4.jpg" alt="">
+                    <div class="instructor-section-single-overlay">
+                        <a href="#" class="btn-social"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="btn-social"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="instructor-section-single-content-main">
+                    <h4>Instructor Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <a href="#" class="footer-quick-link">&#10148; About Us</a>
+                    <a href="#" class="footer-quick-link">&#10148; Contact Us</a>
+                    <a href="#" class="footer-quick-link">&#10148; Privacy Policy</a>
+                    <a href="#" class="footer-quick-link">&#10148; Terms & Conditions</a>
+                    <a href="#" class="footer-quick-link">&#10148; FAQs & Help</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p class="footer-column-contact"> <i class="fa fa-map-marker"></i> 123 Street, New York, USA</p>
+                    <p class="footer-column-contact"><i class="fa fa-phone"></i> +012 345 67890</p>
+                    <p class="footer-column-contact"><i class="fa fa-envelope"></i> info@example.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Gallery</h4>
+                    <div class="gallery-images">
+                        <img src="img/course-1.jpg" alt="">
+                        <img src="img/course-2.jpg" alt="">
+                        <img src="img/course-3.jpg" alt="">
+                        <img src="img/course-2.jpg" alt="">
+                        <img src="img/course-3.jpg" alt="">
+                        <img src="img/course-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Newsletter</h4>
+                    <p class="footer-quick-link">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="newsletter-form">
+                        <input type="text" placeholder="Your email">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Eduvista, All Rights Reserved. Designed By <a href="https://www.linkedin.com/in/argmkj/">Arghadeep Mukherjee</a></p>
+            </div>
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
